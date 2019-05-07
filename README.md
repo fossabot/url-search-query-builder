@@ -5,6 +5,7 @@ A shortcut utility that allows get,delete,reset,set operation to your url path's
 [![npm version](https://badge.fury.io/js/url-search-query-builder.svg)](https://www.npmjs.com/package/url-search-query-builder)
 [![Build Status](https://api.travis-ci.org/YIZHUANG/url-search-query-builder.svg?branch=master)](https://travis-ci.org/YIZHUANG/url-search-query-builder)
 [![David Dependancy Status](https://david-dm.org/YIZHUANG/url-search-query-builder.svg)](https://david-dm.org/YIZHUANG/url-search-query-builder)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FYIZHUANG%2Furl-search-query-builder.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FYIZHUANG%2Furl-search-query-builder?ref=badge_shield)
 
 ## Environment.
 
@@ -168,3 +169,7 @@ const pageNumber = Number(page); or parseInt(page, 10); // this will return 1.
 If this project help you reduce time to develop, you can give me a cup of coffee :)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GJSPRG9RKSJLQ&source=url)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FYIZHUANG%2Furl-search-query-builder.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FYIZHUANG%2Furl-search-query-builder?ref=badge_large)
