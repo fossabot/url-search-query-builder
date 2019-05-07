@@ -70,6 +70,17 @@ const query = { category: 'TV' } or "category=TV";
 const builder = new QueryBuilder(path, query); // query can be empty.
 ```
 
+## toString()
+
+It returns the full path(Might or might not contain query);
+
+```
+const path = '/something';
+const query = { category: 'TV' };
+const builder = new QueryBuilder(path, query);
+builder.toString(); // '/something?category=TV&';
+```
+
 ## Has, get, set, delete, reset.
 
 ```
@@ -89,6 +100,34 @@ builder.delete('type'); // '/something?page=1'
 builder.reset(); // '/something'
 
 builder.buildUrl(path, { anything: anything }); // '/something?anything=anything';
+```
+
+## get
+
+Get query by name.
+
+```
+const path = '/something';
+const query = { type: 'website', page: 1 };  '/something?type=website&page=1'
+const builder = new QueryBuilder(path, query);
+builder.get('type'); // website.
+builder.get('product'); // undefined.
+```
+
+## getAll
+
+It gets all the queries;
+
+```
+const path = '/something';
+const query = { type: 'website', page: 1 };  '/something?type=website&page=1'
+const builder = new QueryBuilder(path, query);
+
+// If true is passed, it returns a string instead of object.
+
+builder.getAll(); // { type: 'website', page: 1 }
+builder.getAll(true); 'type=website&page=1';
+
 ```
 
 ## Test
