@@ -2,6 +2,10 @@
 
 A shortcut utility that allows get,delete,reset,set operation to your url path's query, either for pagination, filter or for SEO optimization.
 
+[![npm version](https://badge.fury.io/js/url-search-query-builder.svg)](https://www.npmjs.com/package/url-search-query-builder)
+[![Build Status](https://api.travis-ci.org/YIZHUANG/url-search-query-builder.svg?branch=master)](https://travis-ci.org/YIZHUANG/url-search-query-builder)
+[![David Dependancy Status](https://david-dm.org/YIZHUANG/url-search-query-builder.svg)](https://david-dm.org/YIZHUANG/url-search-query-builder)
+
 ## Environment.
 
 Works in browser, node(Also older node version) and serverless environment.
