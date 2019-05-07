@@ -1,6 +1,6 @@
 {
   "name": "url-search-query-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shortcut that allows get/set/has/delete/reset/add operation on an url that contains query or search, good for pagination and filter as well as search engine optimization",
   "private": false,
   "main": "index.js",
