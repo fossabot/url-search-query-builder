@@ -1,0 +1,53 @@
+{
+  "name": "url-search-query-builder",
+  "version": "1.0.1",
+  "description": "A shortcut that allows get/set/has/delete/reset/add operation on an url that contains query or search, good for pagination and filter as well as search engine optimization",
+  "private": false,
+  "main": "index.js",
+  "types": "./dist/types.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "npm run build:server && nodemon dist/index.js",
+    "build:server": "tsc --project tsconfig.server.json",
+    "build": "npm run build:server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YIZHUANG/url-search-query-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YIZHUANG/url-search-query-builder/issues"
+  },
+  "keywords": [
+    "url",
+    "query",
+    "parse query",
+    "format query",
+    "search",
+    "parse search",
+    "format search",
+    "filter",
+    "pagination",
+    "react",
+    "vue",
+    "shallow routing",
+    "query builder"
+  ],
+  "author": {
+    "name": "YI ZHUANG",
+    "url": "https://yizhuang.fi/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
